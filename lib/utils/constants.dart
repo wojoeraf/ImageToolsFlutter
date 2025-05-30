@@ -9,6 +9,7 @@ const Map<String, Size> kResolutions = {
 
 const String kDefaultResolutionKey = 'FullHD';
 const int kDefaultQuality = 85;
+const int kDefaultShortSide = 1080;  // Default for shortest side resizing
 
 // Allowed file extensions (lowercase)
 const Set<String> kAllowedExtensions = {

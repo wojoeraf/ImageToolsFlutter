@@ -368,20 +368,18 @@ class AppState extends ChangeNotifier {
   }
 
   // --- Settings ---
-
-  void setResolution(String resolutionKey) {
-    if (kResolutions.containsKey(resolutionKey)) {
-      _processingOptions = ProcessingOptions(
-        resolutionKey: resolutionKey,
-        quality: _processingOptions.quality,
-      );
-      notifyListeners();
-    }
+  /// Sets the target short side (px) for resizing
+  void setShortSide(int shortSide) {
+    _processingOptions = ProcessingOptions(
+      shortSide: shortSide,
+      quality: _processingOptions.quality,
+    );
+    notifyListeners();
   }
 
   void setQuality(double quality) {
     _processingOptions = ProcessingOptions(
-      resolutionKey: _processingOptions.resolutionKey,
+      shortSide: _processingOptions.shortSide,
       quality: quality.round(),
     );
     notifyListeners();

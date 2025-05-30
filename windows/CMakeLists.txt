@@ -2,6 +2,9 @@
 cmake_minimum_required(VERSION 3.14)
 project(image_tools LANGUAGES CXX)
 
+# The path to the jpeg_decoder_wrapper.dll file
+set(JPEG_DECODER_DLL "./jpeg_decoder_wrapper.dll")
+
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "image_tools")

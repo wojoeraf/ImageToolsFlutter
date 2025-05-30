@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:image_tools/utils/constants.dart';
 
 class ProcessingOptions {
-  final String resolutionKey;
+  final int shortSide;
   final int quality;
 
   ProcessingOptions({
-    this.resolutionKey = kDefaultResolutionKey,
+    this.shortSide = kDefaultShortSide,
     this.quality = kDefaultQuality,
   });
 
-  Size get targetSize => kResolutions[resolutionKey] ?? kResolutions[kDefaultResolutionKey]!;
+  // Target size computed based on shortSide and original image ratio inside ImageProcessor
 
   @override
   String toString() {
-    return 'ProcessingOptions{resolutionKey: $resolutionKey, quality: $quality}';
+    return 'ProcessingOptions{shortSide: $shortSide, quality: $quality}';
   }
 }
