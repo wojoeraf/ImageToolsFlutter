@@ -1,0 +1,1248 @@
+.
+├── analysis_options.yaml
+├── assets
+│   └── img
+│       └── logo.png
+├── build
+│   ├── 76b68e883256c3d88fcdd5aa7e7d89ff
+│   │   ├── _composite.stamp
+│   │   ├── gen_dart_plugin_registrant.stamp
+│   │   └── gen_localizations.stamp
+│   ├── 99820c8a9005698a027c48ae498a8204
+│   │   ├── _composite.stamp
+│   │   ├── gen_dart_plugin_registrant.stamp
+│   │   └── gen_localizations.stamp
+│   ├── ALL_BUILD.vcxproj
+│   ├── ALL_BUILD.vcxproj.filters
+│   ├── cache.dill.track.dill
+│   ├── .cmake
+│   │   └── api
+│   │       └── v1
+│   │           ├── query
+│   │           │   └── client-vscode
+│   │           │       └── query.json
+│   │           └── reply
+│   │               ├── cache-v2-3dcd903491551f5b47f1.json
+│   │               ├── cmakeFiles-v1-b7046ade813864deabaa.json
+│   │               ├── codemodel-v2-b60c58e2bec662184c9a.json
+│   │               ├── directory-.-Debug-f2b260c783596b0541d0.json
+│   │               ├── directory-flutter-Debug-79e0260f2327d8493c28.json
+│   │               ├── directory-flutter-Profile-79e0260f2327d8493c28.json
+│   │               ├── directory-flutter-Release-79e0260f2327d8493c28.json
+│   │               ├── directory-plugins.desktop_drop-Debug-8d64fd618de05621e7c7.json
+│   │               ├── directory-plugins.desktop_drop-Profile-8d64fd618de05621e7c7.json
+│   │               ├── directory-plugins.desktop_drop-Release-8d64fd618de05621e7c7.json
+│   │               ├── directory-plugins.screen_retriever-Debug-d2b3b3ff516ab7be9d33.json
+│   │               ├── directory-plugins.screen_retriever-Profile-d2b3b3ff516ab7be9d33.json
+│   │               ├── directory-plugins.screen_retriever-Release-d2b3b3ff516ab7be9d33.json
+│   │               ├── directory-plugins.window_manager-Debug-96d174f243515dd0bb1a.json
+│   │               ├── directory-plugins.window_manager-Profile-96d174f243515dd0bb1a.json
+│   │               ├── directory-plugins.window_manager-Release-96d174f243515dd0bb1a.json
+│   │               ├── directory-.-Profile-98ce56735e35eb3470c2.json
+│   │               ├── directory-.-Release-c1996ffe677ac7f82ca9.json
+│   │               ├── directory-runner-Debug-86f38b7dcb6f33eb04e4.json
+│   │               ├── directory-runner-Profile-86f38b7dcb6f33eb04e4.json
+│   │               ├── directory-runner-Release-86f38b7dcb6f33eb04e4.json
+│   │               ├── index-2025-05-26T10-54-23-0672.json
+│   │               ├── target-ALL_BUILD-Debug-0650e7a62dd1ac0667eb.json
+│   │               ├── target-ALL_BUILD-Debug-30351969f8696e89f6cd.json
+│   │               ├── target-ALL_BUILD-Debug-51e775be8d65233df547.json
+│   │               ├── target-ALL_BUILD-Debug-6f9be7cc0e8afba4bd3d.json
+│   │               ├── target-ALL_BUILD-Debug-bcb57c6a012a6d3700c3.json
+│   │               ├── target-ALL_BUILD-Profile-0650e7a62dd1ac0667eb.json
+│   │               ├── target-ALL_BUILD-Profile-30351969f8696e89f6cd.json
+│   │               ├── target-ALL_BUILD-Profile-51e775be8d65233df547.json
+│   │               ├── target-ALL_BUILD-Profile-6f9be7cc0e8afba4bd3d.json
+│   │               ├── target-ALL_BUILD-Profile-bcb57c6a012a6d3700c3.json
+│   │               ├── target-ALL_BUILD-Release-0650e7a62dd1ac0667eb.json
+│   │               ├── target-ALL_BUILD-Release-30351969f8696e89f6cd.json
+│   │               ├── target-ALL_BUILD-Release-51e775be8d65233df547.json
+│   │               ├── target-ALL_BUILD-Release-6f9be7cc0e8afba4bd3d.json
+│   │               ├── target-ALL_BUILD-Release-bcb57c6a012a6d3700c3.json
+│   │               ├── target-desktop_drop_plugin-Debug-51498ab4782bd0c08458.json
+│   │               ├── target-desktop_drop_plugin-Profile-c7e383726b1d72fc10dd.json
+│   │               ├── target-desktop_drop_plugin-Release-9e325c2fb137fbd27183.json
+│   │               ├── target-flutter_assemble-Debug-c9a5b282c69f1fce1eeb.json
+│   │               ├── target-flutter_assemble-Profile-c9a5b282c69f1fce1eeb.json
+│   │               ├── target-flutter_assemble-Release-c9a5b282c69f1fce1eeb.json
+│   │               ├── target-flutter_wrapper_app-Debug-c139abad81bd04f725e5.json
+│   │               ├── target-flutter_wrapper_app-Profile-f0b3ad3d273422449a95.json
+│   │               ├── target-flutter_wrapper_app-Release-608cc1744463e32d7a00.json
+│   │               ├── target-flutter_wrapper_plugin-Debug-76904f7f808447d54c45.json
+│   │               ├── target-flutter_wrapper_plugin-Profile-47731c19ba6ba1480952.json
+│   │               ├── target-flutter_wrapper_plugin-Release-33bf1db47c7fb31514e1.json
+│   │               ├── target-image_tools-Debug-4d57ce8a886e662af8c8.json
+│   │               ├── target-image_tools-Profile-aabe54fc8ae9192c1d63.json
+│   │               ├── target-image_tools-Release-0abbc30b173d4f3591bd.json
+│   │               ├── target-screen_retriever_plugin-Debug-bbf0f38e4bac062c93b3.json
+│   │               ├── target-screen_retriever_plugin-Profile-a85008d2a9668d08ce96.json
+│   │               ├── target-screen_retriever_plugin-Release-4423689a2362ddee3194.json
+│   │               ├── target-window_manager_plugin-Debug-4e0bbe0d8d42625c5d60.json
+│   │               ├── target-window_manager_plugin-Profile-a60636c567e8c3152bec.json
+│   │               ├── target-window_manager_plugin-Release-b7951fe7cce745380587.json
+│   │               ├── target-ZERO_CHECK-Debug-0997ffe7a71cf3cf9b99.json
+│   │               ├── target-ZERO_CHECK-Profile-0997ffe7a71cf3cf9b99.json
+│   │               ├── target-ZERO_CHECK-Release-0997ffe7a71cf3cf9b99.json
+│   │               └── toolchains-v1-e2e9bad81862d8b82988.json
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.30.5-msvc23
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeRCCompiler.cmake
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdCXX
+│   │   │   │   ├── CMakeCXXCompilerId.cpp
+│   │   │   │   ├── CompilerIdCXX.exe
+│   │   │   │   ├── CompilerIdCXX.vcxproj
+│   │   │   │   ├── Debug
+│   │   │   │   │   ├── CMakeCXXCompilerId.obj
+│   │   │   │   │   ├── CompilerIdCXX.exe.recipe
+│   │   │   │   │   └── CompilerIdCXX.tlog
+│   │   │   │   │       ├── CL.command.1.tlog
+│   │   │   │   │       ├── Cl.items.tlog
+│   │   │   │   │       ├── CL.read.1.tlog
+│   │   │   │   │       ├── CL.write.1.tlog
+│   │   │   │   │       ├── CompilerIdCXX.lastbuildstate
+│   │   │   │   │       ├── link.command.1.tlog
+│   │   │   │   │       ├── link.read.1.tlog
+│   │   │   │   │       ├── link.secondary.1.tlog
+│   │   │   │   │       └── link.write.1.tlog
+│   │   │   │   └── tmp
+│   │   │   ├── VCTargetsPath
+│   │   │   │   └── x64
+│   │   │   │       └── Debug
+│   │   │   │           ├── VCTargetsPath.recipe
+│   │   │   │           └── VCTargetsPath.tlog
+│   │   │   │               └── VCTargetsPath.lastbuildstate
+│   │   │   ├── VCTargetsPath.txt
+│   │   │   ├── VCTargetsPath.vcxproj
+│   │   │   └── x64
+│   │   │       └── Debug
+│   │   ├── 359baf1eef35d98a1fa16adc7066130a
+│   │   │   └── INSTALL_force.rule
+│   │   ├── 5c30f2cf3ab38a7b1ebb246d0a31bb2e
+│   │   │   └── flutter_windows.dll.rule
+│   │   ├── 609152892f725fb7c754a2f60c39d79d
+│   │   │   └── INSTALL_force.rule
+│   │   ├── 7f13ad5d95df105a52c835fb3f1f3aa6
+│   │   │   ├── generate.stamp.rule
+│   │   │   └── INSTALL_force.rule
+│   │   ├── cb9d4debfc2a77dad513440b3e6c10c2
+│   │   │   └── INSTALL_force.rule
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── d041cc37d3469007e044a3f2942e5e0a
+│   │   │   └── INSTALL_force.rule
+│   │   ├── d139a98cfaa5710195b9513e1b0d5ac1
+│   │   │   ├── flutter_assemble.rule
+│   │   │   └── INSTALL_force.rule
+│   │   ├── generate.stamp
+│   │   ├── generate.stamp.depend
+│   │   ├── generate.stamp.list
+│   │   ├── pkgRedirects
+│   │   └── TargetDirectories.txt
+│   ├── cmake_install.cmake
+│   ├── flutter
+│   │   ├── CMakeFiles
+│   │   │   ├── generate.stamp
+│   │   │   └── generate.stamp.depend
+│   │   ├── cmake_install.cmake
+│   │   ├── flutter_assemble.vcxproj
+│   │   ├── flutter_assemble.vcxproj.filters
+│   │   ├── flutter_wrapper_app.vcxproj
+│   │   ├── flutter_wrapper_app.vcxproj.filters
+│   │   ├── flutter_wrapper_plugin.vcxproj
+│   │   ├── flutter_wrapper_plugin.vcxproj.filters
+│   │   ├── INSTALL.vcxproj
+│   │   └── INSTALL.vcxproj.filters
+│   ├── flutter_assets
+│   │   ├── AssetManifest.bin
+│   │   ├── AssetManifest.json
+│   │   ├── assets
+│   │   │   └── img
+│   │   │       └── logo.png
+│   │   ├── FontManifest.json
+│   │   ├── fonts
+│   │   │   └── MaterialIcons-Regular.otf
+│   │   ├── kernel_blob.bin
+│   │   ├── NativeAssetsManifest.json
+│   │   ├── NOTICES.Z
+│   │   ├── packages
+│   │   │   ├── cupertino_icons
+│   │   │   │   └── assets
+│   │   │   │       └── CupertinoIcons.ttf
+│   │   │   └── window_manager
+│   │   │       └── images
+│   │   │           ├── ic_chrome_close.png
+│   │   │           ├── ic_chrome_maximize.png
+│   │   │           ├── ic_chrome_minimize.png
+│   │   │           └── ic_chrome_unmaximize.png
+│   │   └── shaders
+│   │       └── ink_sparkle.frag
+│   ├── image_tools.sln
+│   ├── INSTALL.vcxproj
+│   ├── INSTALL.vcxproj.filters
+│   ├── .last_build_id
+│   ├── native_assets
+│   │   └── windows
+│   ├── plugins
+│   │   ├── desktop_drop
+│   │   │   ├── ALL_BUILD.vcxproj
+│   │   │   ├── ALL_BUILD.vcxproj.filters
+│   │   │   ├── CMakeFiles
+│   │   │   │   ├── generate.stamp
+│   │   │   │   └── generate.stamp.depend
+│   │   │   ├── cmake_install.cmake
+│   │   │   ├── desktop_drop_plugin.vcxproj
+│   │   │   ├── desktop_drop_plugin.vcxproj.filters
+│   │   │   ├── desktop_drop.sln
+│   │   │   ├── INSTALL.vcxproj
+│   │   │   └── INSTALL.vcxproj.filters
+│   │   ├── screen_retriever
+│   │   │   ├── ALL_BUILD.vcxproj
+│   │   │   ├── ALL_BUILD.vcxproj.filters
+│   │   │   ├── CMakeFiles
+│   │   │   │   ├── generate.stamp
+│   │   │   │   └── generate.stamp.depend
+│   │   │   ├── cmake_install.cmake
+│   │   │   ├── INSTALL.vcxproj
+│   │   │   ├── INSTALL.vcxproj.filters
+│   │   │   ├── screen_retriever_plugin.vcxproj
+│   │   │   ├── screen_retriever_plugin.vcxproj.filters
+│   │   │   └── screen_retriever.sln
+│   │   └── window_manager
+│   │       ├── ALL_BUILD.vcxproj
+│   │       ├── ALL_BUILD.vcxproj.filters
+│   │       ├── CMakeFiles
+│   │       │   ├── generate.stamp
+│   │       │   └── generate.stamp.depend
+│   │       ├── cmake_install.cmake
+│   │       ├── INSTALL.vcxproj
+│   │       ├── INSTALL.vcxproj.filters
+│   │       ├── window_manager_plugin.vcxproj
+│   │       ├── window_manager_plugin.vcxproj.filters
+│   │       └── window_manager.sln
+│   ├── runner
+│   │   ├── ALL_BUILD.vcxproj
+│   │   ├── ALL_BUILD.vcxproj.filters
+│   │   ├── CMakeFiles
+│   │   │   ├── generate.stamp
+│   │   │   └── generate.stamp.depend
+│   │   ├── cmake_install.cmake
+│   │   ├── image_tools.vcxproj
+│   │   ├── image_tools.vcxproj.filters
+│   │   ├── INSTALL.vcxproj
+│   │   ├── INSTALL.vcxproj.filters
+│   │   └── runner.sln
+│   ├── windows
+│   │   └── x64
+│   │       ├── ALL_BUILD.vcxproj
+│   │       ├── ALL_BUILD.vcxproj.filters
+│   │       ├── CMakeCache.txt
+│   │       ├── CMakeFiles
+│   │       │   ├── 28b8970bd4869772d3010826e3d84784
+│   │       │   │   └── INSTALL_force.rule
+│   │       │   ├── 3.30.5-msvc23
+│   │       │   │   ├── CMakeCXXCompiler.cmake
+│   │       │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │       │   │   ├── CMakeRCCompiler.cmake
+│   │       │   │   ├── CMakeSystem.cmake
+│   │       │   │   ├── CompilerIdCXX
+│   │       │   │   │   ├── CMakeCXXCompilerId.cpp
+│   │       │   │   │   ├── CompilerIdCXX.exe
+│   │       │   │   │   ├── CompilerIdCXX.vcxproj
+│   │       │   │   │   ├── Debug
+│   │       │   │   │   │   ├── CMakeCXXCompilerId.obj
+│   │       │   │   │   │   ├── CompilerIdCXX.exe.recipe
+│   │       │   │   │   │   └── CompilerIdCXX.tlog
+│   │       │   │   │   │       ├── CL.command.1.tlog
+│   │       │   │   │   │       ├── Cl.items.tlog
+│   │       │   │   │   │       ├── CL.read.1.tlog
+│   │       │   │   │   │       ├── CL.write.1.tlog
+│   │       │   │   │   │       ├── CompilerIdCXX.lastbuildstate
+│   │       │   │   │   │       ├── link.command.1.tlog
+│   │       │   │   │   │       ├── link.read.1.tlog
+│   │       │   │   │   │       ├── link.secondary.1.tlog
+│   │       │   │   │   │       └── link.write.1.tlog
+│   │       │   │   │   └── tmp
+│   │       │   │   ├── VCTargetsPath
+│   │       │   │   │   └── x64
+│   │       │   │   │       └── Debug
+│   │       │   │   │           ├── VCTargetsPath.recipe
+│   │       │   │   │           └── VCTargetsPath.tlog
+│   │       │   │   │               └── VCTargetsPath.lastbuildstate
+│   │       │   │   ├── VCTargetsPath.txt
+│   │       │   │   ├── VCTargetsPath.vcxproj
+│   │       │   │   └── x64
+│   │       │   │       └── Debug
+│   │       │   ├── 4d2c1043d9dbc20c0ffefd202bb19172
+│   │       │   │   └── INSTALL_force.rule
+│   │       │   ├── 59615e3ef3bab5d3c40e50b2fdb7c16c
+│   │       │   │   ├── generate.stamp.rule
+│   │       │   │   └── INSTALL_force.rule
+│   │       │   ├── 5c30f2cf3ab38a7b1ebb246d0a31bb2e
+│   │       │   │   └── flutter_windows.dll.rule
+│   │       │   ├── 677c41c6d399fcb201a59985f8a585fb
+│   │       │   │   └── INSTALL_force.rule
+│   │       │   ├── bdea21e90a6ea49802190ca374204f73
+│   │       │   │   ├── flutter_assemble.rule
+│   │       │   │   └── INSTALL_force.rule
+│   │       │   ├── cmake.check_cache
+│   │       │   ├── CMakeConfigureLog.yaml
+│   │       │   ├── f350c1f251b12d2f2438b8644b37bcfa
+│   │       │   │   └── INSTALL_force.rule
+│   │       │   ├── generate.stamp
+│   │       │   ├── generate.stamp.depend
+│   │       │   ├── generate.stamp.list
+│   │       │   ├── pkgRedirects
+│   │       │   └── TargetDirectories.txt
+│   │       ├── cmake_install.cmake
+│   │       ├── flutter
+│   │       │   ├── CMakeFiles
+│   │       │   │   ├── generate.stamp
+│   │       │   │   └── generate.stamp.depend
+│   │       │   ├── cmake_install.cmake
+│   │       │   ├── Debug
+│   │       │   │   ├── flutter_wrapper_app.lib
+│   │       │   │   ├── flutter_wrapper_app.pdb
+│   │       │   │   ├── flutter_wrapper_plugin.lib
+│   │       │   │   └── flutter_wrapper_plugin.pdb
+│   │       │   ├── flutter_assemble.vcxproj
+│   │       │   ├── flutter_assemble.vcxproj.filters
+│   │       │   ├── flutter_wrapper_app.dir
+│   │       │   │   ├── Debug
+│   │       │   │   │   ├── core_implementations.obj
+│   │       │   │   │   ├── flutter_.8EE08AEA.tlog
+│   │       │   │   │   │   ├── CL.command.1.tlog
+│   │       │   │   │   │   ├── Cl.items.tlog
+│   │       │   │   │   │   ├── CL.read.1.tlog
+│   │       │   │   │   │   ├── CL.write.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.command.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.read.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.write.1.tlog
+│   │       │   │   │   │   ├── flutter_wrapper_app.lastbuildstate
+│   │       │   │   │   │   ├── Lib.command.1.tlog
+│   │       │   │   │   │   ├── Lib-link.read.1.tlog
+│   │       │   │   │   │   └── Lib-link.write.1.tlog
+│   │       │   │   │   ├── flutter_engine.obj
+│   │       │   │   │   ├── flutter_view_controller.obj
+│   │       │   │   │   ├── flutter_wrapper_app.lib.recipe
+│   │       │   │   │   └── standard_codec.obj
+│   │       │   │   └── Profile
+│   │       │   │       ├── core_implementations.obj
+│   │       │   │       ├── flutter_.8EE08AEA.tlog
+│   │       │   │       │   ├── CL.command.1.tlog
+│   │       │   │       │   ├── Cl.items.tlog
+│   │       │   │       │   ├── CL.read.1.tlog
+│   │       │   │       │   ├── CL.write.1.tlog
+│   │       │   │       │   ├── CustomBuild.command.1.tlog
+│   │       │   │       │   ├── CustomBuild.read.1.tlog
+│   │       │   │       │   ├── CustomBuild.write.1.tlog
+│   │       │   │       │   ├── flutter_wrapper_app.lastbuildstate
+│   │       │   │       │   ├── Lib.command.1.tlog
+│   │       │   │       │   ├── Lib-link.read.1.tlog
+│   │       │   │       │   └── Lib-link.write.1.tlog
+│   │       │   │       ├── flutter_engine.obj
+│   │       │   │       ├── flutter_view_controller.obj
+│   │       │   │       ├── flutter_wrapper_app.lib.recipe
+│   │       │   │       └── standard_codec.obj
+│   │       │   ├── flutter_wrapper_app.vcxproj
+│   │       │   ├── flutter_wrapper_app.vcxproj.filters
+│   │       │   ├── flutter_wrapper_plugin.dir
+│   │       │   │   ├── Debug
+│   │       │   │   │   ├── core_implementations.obj
+│   │       │   │   │   ├── flutter_.E100861E.tlog
+│   │       │   │   │   │   ├── CL.command.1.tlog
+│   │       │   │   │   │   ├── Cl.items.tlog
+│   │       │   │   │   │   ├── CL.read.1.tlog
+│   │       │   │   │   │   ├── CL.write.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.command.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.read.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.write.1.tlog
+│   │       │   │   │   │   ├── flutter_wrapper_plugin.lastbuildstate
+│   │       │   │   │   │   ├── Lib.command.1.tlog
+│   │       │   │   │   │   ├── Lib-link.read.1.tlog
+│   │       │   │   │   │   └── Lib-link.write.1.tlog
+│   │       │   │   │   ├── flutter_wrapper_plugin.lib.recipe
+│   │       │   │   │   ├── plugin_registrar.obj
+│   │       │   │   │   └── standard_codec.obj
+│   │       │   │   └── Profile
+│   │       │   │       ├── core_implementations.obj
+│   │       │   │       ├── flutter_.E100861E.tlog
+│   │       │   │       │   ├── CL.command.1.tlog
+│   │       │   │       │   ├── Cl.items.tlog
+│   │       │   │       │   ├── CL.read.1.tlog
+│   │       │   │       │   ├── CL.write.1.tlog
+│   │       │   │       │   ├── CustomBuild.command.1.tlog
+│   │       │   │       │   ├── CustomBuild.read.1.tlog
+│   │       │   │       │   ├── CustomBuild.write.1.tlog
+│   │       │   │       │   ├── flutter_wrapper_plugin.lastbuildstate
+│   │       │   │       │   ├── Lib.command.1.tlog
+│   │       │   │       │   ├── Lib-link.read.1.tlog
+│   │       │   │       │   └── Lib-link.write.1.tlog
+│   │       │   │       ├── flutter_wrapper_plugin.lib.recipe
+│   │       │   │       ├── plugin_registrar.obj
+│   │       │   │       └── standard_codec.obj
+│   │       │   ├── flutter_wrapper_plugin.vcxproj
+│   │       │   ├── flutter_wrapper_plugin.vcxproj.filters
+│   │       │   ├── INSTALL.vcxproj
+│   │       │   ├── INSTALL.vcxproj.filters
+│   │       │   ├── Profile
+│   │       │   │   ├── flutter_wrapper_app.lib
+│   │       │   │   └── flutter_wrapper_plugin.lib
+│   │       │   └── x64
+│   │       │       ├── Debug
+│   │       │       │   └── flutter_assemble
+│   │       │       │       ├── flutter_assemble.recipe
+│   │       │       │       └── flutter_assemble.tlog
+│   │       │       │           ├── CustomBuild.command.1.tlog
+│   │       │       │           ├── CustomBuild.read.1.tlog
+│   │       │       │           ├── CustomBuild.write.1.tlog
+│   │       │       │           └── flutter_assemble.lastbuildstate
+│   │       │       └── Profile
+│   │       │           └── flutter_assemble
+│   │       │               ├── flutter_assemble.recipe
+│   │       │               └── flutter_assemble.tlog
+│   │       │                   ├── CustomBuild.command.1.tlog
+│   │       │                   ├── CustomBuild.read.1.tlog
+│   │       │                   ├── CustomBuild.write.1.tlog
+│   │       │                   └── flutter_assemble.lastbuildstate
+│   │       ├── image_tools.sln
+│   │       ├── install_manifest.txt
+│   │       ├── INSTALL.vcxproj
+│   │       ├── INSTALL.vcxproj.filters
+│   │       ├── plugins
+│   │       │   ├── desktop_drop
+│   │       │   │   ├── ALL_BUILD.vcxproj
+│   │       │   │   ├── ALL_BUILD.vcxproj.filters
+│   │       │   │   ├── CMakeFiles
+│   │       │   │   │   ├── generate.stamp
+│   │       │   │   │   └── generate.stamp.depend
+│   │       │   │   ├── cmake_install.cmake
+│   │       │   │   ├── Debug
+│   │       │   │   │   ├── desktop_drop_plugin.dll
+│   │       │   │   │   ├── desktop_drop_plugin.exp
+│   │       │   │   │   ├── desktop_drop_plugin.lib
+│   │       │   │   │   └── desktop_drop_plugin.pdb
+│   │       │   │   ├── desktop_drop_plugin.dir
+│   │       │   │   │   ├── Debug
+│   │       │   │   │   │   ├── desktop_.709FFF64.tlog
+│   │       │   │   │   │   │   ├── CL.command.1.tlog
+│   │       │   │   │   │   │   ├── Cl.items.tlog
+│   │       │   │   │   │   │   ├── CL.read.1.tlog
+│   │       │   │   │   │   │   ├── CL.write.1.tlog
+│   │       │   │   │   │   │   ├── CustomBuild.command.1.tlog
+│   │       │   │   │   │   │   ├── CustomBuild.read.1.tlog
+│   │       │   │   │   │   │   ├── CustomBuild.write.1.tlog
+│   │       │   │   │   │   │   ├── desktop_drop_plugin.lastbuildstate
+│   │       │   │   │   │   │   ├── link.command.1.tlog
+│   │       │   │   │   │   │   ├── link.read.1.tlog
+│   │       │   │   │   │   │   ├── link.secondary.1.tlog
+│   │       │   │   │   │   │   └── link.write.1.tlog
+│   │       │   │   │   │   ├── desktop_drop_plugin.dll.recipe
+│   │       │   │   │   │   ├── desktop_drop_plugin.ilk
+│   │       │   │   │   │   ├── desktop_drop_plugin.obj
+│   │       │   │   │   │   └── vc143.pdb
+│   │       │   │   │   └── Profile
+│   │       │   │   │       ├── desktop_.709FFF64.tlog
+│   │       │   │   │       │   ├── CL.command.1.tlog
+│   │       │   │   │       │   ├── Cl.items.tlog
+│   │       │   │   │       │   ├── CL.read.1.tlog
+│   │       │   │   │       │   ├── CL.write.1.tlog
+│   │       │   │   │       │   ├── CustomBuild.command.1.tlog
+│   │       │   │   │       │   ├── CustomBuild.read.1.tlog
+│   │       │   │   │       │   ├── CustomBuild.write.1.tlog
+│   │       │   │   │       │   ├── desktop_drop_plugin.lastbuildstate
+│   │       │   │   │       │   ├── link.command.1.tlog
+│   │       │   │   │       │   ├── link.read.1.tlog
+│   │       │   │   │       │   ├── link.secondary.1.tlog
+│   │       │   │   │       │   └── link.write.1.tlog
+│   │       │   │   │       ├── desktop_drop_plugin.dll.recipe
+│   │       │   │   │       └── desktop_drop_plugin.obj
+│   │       │   │   ├── desktop_drop_plugin.vcxproj
+│   │       │   │   ├── desktop_drop_plugin.vcxproj.filters
+│   │       │   │   ├── desktop_drop.sln
+│   │       │   │   ├── INSTALL.vcxproj
+│   │       │   │   ├── INSTALL.vcxproj.filters
+│   │       │   │   └── Profile
+│   │       │   │       ├── desktop_drop_plugin.dll
+│   │       │   │       ├── desktop_drop_plugin.exp
+│   │       │   │       └── desktop_drop_plugin.lib
+│   │       │   ├── screen_retriever
+│   │       │   │   ├── ALL_BUILD.vcxproj
+│   │       │   │   ├── ALL_BUILD.vcxproj.filters
+│   │       │   │   ├── CMakeFiles
+│   │       │   │   │   ├── generate.stamp
+│   │       │   │   │   └── generate.stamp.depend
+│   │       │   │   ├── cmake_install.cmake
+│   │       │   │   ├── Debug
+│   │       │   │   │   ├── screen_retriever_plugin.dll
+│   │       │   │   │   ├── screen_retriever_plugin.exp
+│   │       │   │   │   ├── screen_retriever_plugin.lib
+│   │       │   │   │   └── screen_retriever_plugin.pdb
+│   │       │   │   ├── INSTALL.vcxproj
+│   │       │   │   ├── INSTALL.vcxproj.filters
+│   │       │   │   ├── Profile
+│   │       │   │   │   ├── screen_retriever_plugin.dll
+│   │       │   │   │   ├── screen_retriever_plugin.exp
+│   │       │   │   │   └── screen_retriever_plugin.lib
+│   │       │   │   ├── screen_retriever_plugin.dir
+│   │       │   │   │   ├── Debug
+│   │       │   │   │   │   ├── screen_r.35072647.tlog
+│   │       │   │   │   │   │   ├── CL.command.1.tlog
+│   │       │   │   │   │   │   ├── Cl.items.tlog
+│   │       │   │   │   │   │   ├── CL.read.1.tlog
+│   │       │   │   │   │   │   ├── CL.write.1.tlog
+│   │       │   │   │   │   │   ├── CustomBuild.command.1.tlog
+│   │       │   │   │   │   │   ├── CustomBuild.read.1.tlog
+│   │       │   │   │   │   │   ├── CustomBuild.write.1.tlog
+│   │       │   │   │   │   │   ├── link.command.1.tlog
+│   │       │   │   │   │   │   ├── link.read.1.tlog
+│   │       │   │   │   │   │   ├── link.secondary.1.tlog
+│   │       │   │   │   │   │   ├── link.write.1.tlog
+│   │       │   │   │   │   │   └── screen_retriever_plugin.lastbuildstate
+│   │       │   │   │   │   ├── screen_retriever_plugin.dll.recipe
+│   │       │   │   │   │   ├── screen_retriever_plugin.ilk
+│   │       │   │   │   │   ├── screen_retriever_plugin.obj
+│   │       │   │   │   │   └── vc143.pdb
+│   │       │   │   │   └── Profile
+│   │       │   │   │       ├── screen_r.35072647.tlog
+│   │       │   │   │       │   ├── CL.command.1.tlog
+│   │       │   │   │       │   ├── Cl.items.tlog
+│   │       │   │   │       │   ├── CL.read.1.tlog
+│   │       │   │   │       │   ├── CL.write.1.tlog
+│   │       │   │   │       │   ├── CustomBuild.command.1.tlog
+│   │       │   │   │       │   ├── CustomBuild.read.1.tlog
+│   │       │   │   │       │   ├── CustomBuild.write.1.tlog
+│   │       │   │   │       │   ├── link.command.1.tlog
+│   │       │   │   │       │   ├── link.read.1.tlog
+│   │       │   │   │       │   ├── link.secondary.1.tlog
+│   │       │   │   │       │   ├── link.write.1.tlog
+│   │       │   │   │       │   └── screen_retriever_plugin.lastbuildstate
+│   │       │   │   │       ├── screen_retriever_plugin.dll.recipe
+│   │       │   │   │       └── screen_retriever_plugin.obj
+│   │       │   │   ├── screen_retriever_plugin.vcxproj
+│   │       │   │   ├── screen_retriever_plugin.vcxproj.filters
+│   │       │   │   └── screen_retriever.sln
+│   │       │   └── window_manager
+│   │       │       ├── ALL_BUILD.vcxproj
+│   │       │       ├── ALL_BUILD.vcxproj.filters
+│   │       │       ├── CMakeFiles
+│   │       │       │   ├── generate.stamp
+│   │       │       │   └── generate.stamp.depend
+│   │       │       ├── cmake_install.cmake
+│   │       │       ├── Debug
+│   │       │       │   ├── window_manager_plugin.dll
+│   │       │       │   ├── window_manager_plugin.exp
+│   │       │       │   ├── window_manager_plugin.lib
+│   │       │       │   └── window_manager_plugin.pdb
+│   │       │       ├── INSTALL.vcxproj
+│   │       │       ├── INSTALL.vcxproj.filters
+│   │       │       ├── Profile
+│   │       │       │   ├── window_manager_plugin.dll
+│   │       │       │   ├── window_manager_plugin.exp
+│   │       │       │   └── window_manager_plugin.lib
+│   │       │       ├── window_manager_plugin.dir
+│   │       │       │   ├── Debug
+│   │       │       │   │   ├── vc143.pdb
+│   │       │       │   │   ├── window_m.32761ED8.tlog
+│   │       │       │   │   │   ├── CL.command.1.tlog
+│   │       │       │   │   │   ├── Cl.items.tlog
+│   │       │       │   │   │   ├── CL.read.1.tlog
+│   │       │       │   │   │   ├── CL.write.1.tlog
+│   │       │       │   │   │   ├── CustomBuild.command.1.tlog
+│   │       │       │   │   │   ├── CustomBuild.read.1.tlog
+│   │       │       │   │   │   ├── CustomBuild.write.1.tlog
+│   │       │       │   │   │   ├── link.command.1.tlog
+│   │       │       │   │   │   ├── link.read.1.tlog
+│   │       │       │   │   │   ├── link.secondary.1.tlog
+│   │       │       │   │   │   ├── link.write.1.tlog
+│   │       │       │   │   │   └── window_manager_plugin.lastbuildstate
+│   │       │       │   │   ├── window_manager.obj
+│   │       │       │   │   ├── window_manager_plugin.dll.recipe
+│   │       │       │   │   ├── window_manager_plugin.ilk
+│   │       │       │   │   └── window_manager_plugin.obj
+│   │       │       │   └── Profile
+│   │       │       │       ├── window_m.32761ED8.tlog
+│   │       │       │       │   ├── CL.command.1.tlog
+│   │       │       │       │   ├── Cl.items.tlog
+│   │       │       │       │   ├── CL.read.1.tlog
+│   │       │       │       │   ├── CL.write.1.tlog
+│   │       │       │       │   ├── CustomBuild.command.1.tlog
+│   │       │       │       │   ├── CustomBuild.read.1.tlog
+│   │       │       │       │   ├── CustomBuild.write.1.tlog
+│   │       │       │       │   ├── link.command.1.tlog
+│   │       │       │       │   ├── link.read.1.tlog
+│   │       │       │       │   ├── link.secondary.1.tlog
+│   │       │       │       │   ├── link.write.1.tlog
+│   │       │       │       │   └── window_manager_plugin.lastbuildstate
+│   │       │       │       ├── window_manager.obj
+│   │       │       │       ├── window_manager_plugin.dll.recipe
+│   │       │       │       └── window_manager_plugin.obj
+│   │       │       ├── window_manager_plugin.vcxproj
+│   │       │       ├── window_manager_plugin.vcxproj.filters
+│   │       │       └── window_manager.sln
+│   │       ├── runner
+│   │       │   ├── ALL_BUILD.vcxproj
+│   │       │   ├── ALL_BUILD.vcxproj.filters
+│   │       │   ├── CMakeFiles
+│   │       │   │   ├── generate.stamp
+│   │       │   │   └── generate.stamp.depend
+│   │       │   ├── cmake_install.cmake
+│   │       │   ├── Debug
+│   │       │   │   ├── data
+│   │       │   │   │   ├── flutter_assets
+│   │       │   │   │   │   ├── AssetManifest.bin
+│   │       │   │   │   │   ├── AssetManifest.json
+│   │       │   │   │   │   ├── assets
+│   │       │   │   │   │   │   └── img
+│   │       │   │   │   │   │       └── logo.png
+│   │       │   │   │   │   ├── FontManifest.json
+│   │       │   │   │   │   ├── fonts
+│   │       │   │   │   │   │   └── MaterialIcons-Regular.otf
+│   │       │   │   │   │   ├── kernel_blob.bin
+│   │       │   │   │   │   ├── NativeAssetsManifest.json
+│   │       │   │   │   │   ├── NOTICES.Z
+│   │       │   │   │   │   ├── packages
+│   │       │   │   │   │   │   ├── cupertino_icons
+│   │       │   │   │   │   │   │   └── assets
+│   │       │   │   │   │   │   │       └── CupertinoIcons.ttf
+│   │       │   │   │   │   │   └── window_manager
+│   │       │   │   │   │   │       └── images
+│   │       │   │   │   │   │           ├── ic_chrome_close.png
+│   │       │   │   │   │   │           ├── ic_chrome_maximize.png
+│   │       │   │   │   │   │           ├── ic_chrome_minimize.png
+│   │       │   │   │   │   │           └── ic_chrome_unmaximize.png
+│   │       │   │   │   │   └── shaders
+│   │       │   │   │   │       └── ink_sparkle.frag
+│   │       │   │   │   └── icudtl.dat
+│   │       │   │   ├── desktop_drop_plugin.dll
+│   │       │   │   ├── flutter_windows.dll
+│   │       │   │   ├── image_tools.exe
+│   │       │   │   ├── image_tools.pdb
+│   │       │   │   ├── resizeFast64.dll
+│   │       │   │   ├── resize_fast.dll
+│   │       │   │   ├── screen_retriever_plugin.dll
+│   │       │   │   └── window_manager_plugin.dll
+│   │       │   ├── image_tools.dir
+│   │       │   │   ├── Debug
+│   │       │   │   │   ├── flutter_window.obj
+│   │       │   │   │   ├── generated_plugin_registrant.obj
+│   │       │   │   │   ├── image_tools.exe.recipe
+│   │       │   │   │   ├── image_tools.ilk
+│   │       │   │   │   ├── image_tools.tlog
+│   │       │   │   │   │   ├── CL.command.1.tlog
+│   │       │   │   │   │   ├── Cl.items.tlog
+│   │       │   │   │   │   ├── CL.read.1.tlog
+│   │       │   │   │   │   ├── CL.write.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.command.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.read.1.tlog
+│   │       │   │   │   │   ├── CustomBuild.write.1.tlog
+│   │       │   │   │   │   ├── image_tools.lastbuildstate
+│   │       │   │   │   │   ├── link.command.1.tlog
+│   │       │   │   │   │   ├── link.read.1.tlog
+│   │       │   │   │   │   ├── link.secondary.1.tlog
+│   │       │   │   │   │   ├── link.write.1.tlog
+│   │       │   │   │   │   ├── rc.command.1.tlog
+│   │       │   │   │   │   ├── rc.read.1.tlog
+│   │       │   │   │   │   └── rc.write.1.tlog
+│   │       │   │   │   ├── main.obj
+│   │       │   │   │   ├── Runner.res
+│   │       │   │   │   ├── utils.obj
+│   │       │   │   │   ├── vc143.pdb
+│   │       │   │   │   └── win32_window.obj
+│   │       │   │   └── Profile
+│   │       │   │       ├── flutter_window.obj
+│   │       │   │       ├── generated_plugin_registrant.obj
+│   │       │   │       ├── image_tools.exe.recipe
+│   │       │   │       ├── image_tools.tlog
+│   │       │   │       │   ├── CL.command.1.tlog
+│   │       │   │       │   ├── Cl.items.tlog
+│   │       │   │       │   ├── CL.read.1.tlog
+│   │       │   │       │   ├── CL.write.1.tlog
+│   │       │   │       │   ├── CustomBuild.command.1.tlog
+│   │       │   │       │   ├── CustomBuild.read.1.tlog
+│   │       │   │       │   ├── CustomBuild.write.1.tlog
+│   │       │   │       │   ├── image_tools.lastbuildstate
+│   │       │   │       │   ├── link.command.1.tlog
+│   │       │   │       │   ├── link.read.1.tlog
+│   │       │   │       │   ├── link.secondary.1.tlog
+│   │       │   │       │   ├── link.write.1.tlog
+│   │       │   │       │   ├── rc.command.1.tlog
+│   │       │   │       │   ├── rc.read.1.tlog
+│   │       │   │       │   └── rc.write.1.tlog
+│   │       │   │       ├── main.obj
+│   │       │   │       ├── Runner.res
+│   │       │   │       ├── utils.obj
+│   │       │   │       └── win32_window.obj
+│   │       │   ├── image_tools.vcxproj
+│   │       │   ├── image_tools.vcxproj.filters
+│   │       │   ├── INSTALL.vcxproj
+│   │       │   ├── INSTALL.vcxproj.filters
+│   │       │   ├── Profile
+│   │       │   │   ├── data
+│   │       │   │   │   ├── app.so
+│   │       │   │   │   ├── flutter_assets
+│   │       │   │   │   │   ├── AssetManifest.bin
+│   │       │   │   │   │   ├── AssetManifest.json
+│   │       │   │   │   │   ├── assets
+│   │       │   │   │   │   │   └── img
+│   │       │   │   │   │   │       └── logo.png
+│   │       │   │   │   │   ├── FontManifest.json
+│   │       │   │   │   │   ├── fonts
+│   │       │   │   │   │   │   └── MaterialIcons-Regular.otf
+│   │       │   │   │   │   ├── NativeAssetsManifest.json
+│   │       │   │   │   │   ├── NOTICES.Z
+│   │       │   │   │   │   ├── packages
+│   │       │   │   │   │   │   ├── cupertino_icons
+│   │       │   │   │   │   │   │   └── assets
+│   │       │   │   │   │   │   │       └── CupertinoIcons.ttf
+│   │       │   │   │   │   │   └── window_manager
+│   │       │   │   │   │   │       └── images
+│   │       │   │   │   │   │           ├── ic_chrome_close.png
+│   │       │   │   │   │   │           ├── ic_chrome_maximize.png
+│   │       │   │   │   │   │           ├── ic_chrome_minimize.png
+│   │       │   │   │   │   │           └── ic_chrome_unmaximize.png
+│   │       │   │   │   │   └── shaders
+│   │       │   │   │   │       └── ink_sparkle.frag
+│   │       │   │   │   └── icudtl.dat
+│   │       │   │   ├── desktop_drop_plugin.dll
+│   │       │   │   ├── flutter_windows.dll
+│   │       │   │   ├── image_tools.exe
+│   │       │   │   ├── resizeFast64.dll
+│   │       │   │   ├── screen_retriever_plugin.dll
+│   │       │   │   └── window_manager_plugin.dll
+│   │       │   └── runner.sln
+│   │       ├── x64
+│   │       │   ├── Debug
+│   │       │   │   ├── ALL_BUILD
+│   │       │   │   │   ├── ALL_BUILD.recipe
+│   │       │   │   │   └── ALL_BUILD.tlog
+│   │       │   │   │       ├── ALL_BUILD.lastbuildstate
+│   │       │   │   │       ├── CustomBuild.command.1.tlog
+│   │       │   │   │       ├── CustomBuild.read.1.tlog
+│   │       │   │   │       └── CustomBuild.write.1.tlog
+│   │       │   │   ├── INSTALL
+│   │       │   │   │   ├── INSTALL.recipe
+│   │       │   │   │   └── INSTALL.tlog
+│   │       │   │   │       ├── CustomBuild.command.1.tlog
+│   │       │   │   │       ├── CustomBuild.read.1.tlog
+│   │       │   │   │       ├── CustomBuild.write.1.tlog
+│   │       │   │   │       └── INSTALL.lastbuildstate
+│   │       │   │   └── ZERO_CHECK
+│   │       │   │       ├── ZERO_CHECK.recipe
+│   │       │   │       └── ZERO_CHECK.tlog
+│   │       │   │           ├── CustomBuild.command.1.tlog
+│   │       │   │           ├── CustomBuild.read.1.tlog
+│   │       │   │           ├── CustomBuild.write.1.tlog
+│   │       │   │           └── ZERO_CHECK.lastbuildstate
+│   │       │   └── Profile
+│   │       │       ├── ALL_BUILD
+│   │       │       │   ├── ALL_BUILD.recipe
+│   │       │       │   └── ALL_BUILD.tlog
+│   │       │       │       ├── ALL_BUILD.lastbuildstate
+│   │       │       │       ├── CustomBuild.command.1.tlog
+│   │       │       │       ├── CustomBuild.read.1.tlog
+│   │       │       │       └── CustomBuild.write.1.tlog
+│   │       │       ├── INSTALL
+│   │       │       │   ├── INSTALL.recipe
+│   │       │       │   └── INSTALL.tlog
+│   │       │       │       ├── CustomBuild.command.1.tlog
+│   │       │       │       ├── CustomBuild.read.1.tlog
+│   │       │       │       ├── CustomBuild.write.1.tlog
+│   │       │       │       └── INSTALL.lastbuildstate
+│   │       │       └── ZERO_CHECK
+│   │       │           ├── ZERO_CHECK.recipe
+│   │       │           └── ZERO_CHECK.tlog
+│   │       │               ├── CustomBuild.command.1.tlog
+│   │       │               ├── CustomBuild.read.1.tlog
+│   │       │               ├── CustomBuild.write.1.tlog
+│   │       │               └── ZERO_CHECK.lastbuildstate
+│   │       ├── ZERO_CHECK.vcxproj
+│   │       └── ZERO_CHECK.vcxproj.filters
+│   ├── ZERO_CHECK.vcxproj
+│   └── ZERO_CHECK.vcxproj.filters
+├── .continue
+│   └── prompts
+│       └── new-prompt.yaml
+├── .dart_tool
+│   ├── extension_discovery
+│   │   ├── devtools.json
+│   │   └── vs_code.json
+│   ├── flutter_build
+│   │   ├── 1b09b9bc359319fcb41f65b9499543b3
+│   │   │   ├── app.dill
+│   │   │   ├── dart_build.d
+│   │   │   ├── dart_build_result.json
+│   │   │   ├── dart_build.stamp
+│   │   │   ├── debug_bundle_windows-x64_assets.stamp
+│   │   │   ├── .filecache
+│   │   │   ├── flutter_assets.d
+│   │   │   ├── gen_dart_plugin_registrant.stamp
+│   │   │   ├── gen_localizations.stamp
+│   │   │   ├── install_code_assets.d
+│   │   │   ├── install_code_assets.stamp
+│   │   │   ├── kernel_snapshot_program.d
+│   │   │   ├── kernel_snapshot_program.stamp
+│   │   │   ├── native_assets.json
+│   │   │   ├── outputs.json
+│   │   │   ├── unpack_windows.stamp
+│   │   │   └── windows_engine_sources.d
+│   │   ├── 5194adc973b2fb779d8298da0c95d35f
+│   │   │   ├── app.dill
+│   │   │   ├── dart_build.d
+│   │   │   ├── dart_build_result.json
+│   │   │   ├── dart_build.stamp
+│   │   │   ├── debug_bundle_windows-x64_assets.stamp
+│   │   │   ├── .filecache
+│   │   │   ├── flutter_assets.d
+│   │   │   ├── gen_dart_plugin_registrant.stamp
+│   │   │   ├── gen_localizations.stamp
+│   │   │   ├── install_code_assets.d
+│   │   │   ├── install_code_assets.stamp
+│   │   │   ├── kernel_snapshot_program.d
+│   │   │   ├── kernel_snapshot_program.stamp
+│   │   │   ├── native_assets.json
+│   │   │   ├── outputs.json
+│   │   │   ├── unpack_windows.stamp
+│   │   │   └── windows_engine_sources.d
+│   │   └── a7142a240c6dde86a34beabd26bf166f
+│   │       ├── aot_elf_profile.stamp
+│   │       ├── app.dill
+│   │       ├── app.so
+│   │       ├── dart_build.d
+│   │       ├── dart_build_result.json
+│   │       ├── dart_build.stamp
+│   │       ├── .filecache
+│   │       ├── flutter_assets.d
+│   │       ├── gen_dart_plugin_registrant.stamp
+│   │       ├── gen_localizations.stamp
+│   │       ├── install_code_assets.d
+│   │       ├── install_code_assets.stamp
+│   │       ├── kernel_snapshot_program.d
+│   │       ├── kernel_snapshot_program.stamp
+│   │       ├── native_assets.json
+│   │       ├── outputs.json
+│   │       ├── profile_bundle_windows-x64_assets.stamp
+│   │       ├── unpack_windows.stamp
+│   │       ├── windows_aot_bundle.stamp
+│   │       └── windows_engine_sources.d
+│   ├── package_config.json
+│   ├── package_config_subset
+│   └── version
+├── devtools_options.yaml
+├── .flutter-plugins
+├── .flutter-plugins-dependencies
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── config
+│   ├── description
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── master
+│   │       └── remotes
+│   │           └── origin
+│   │               └── master
+│   ├── objects
+│   │   ├── 00
+│   │   │   └── 6888e09b0243bc6d3ce8f00e671bf4115edbf1
+│   │   ├── 07
+│   │   │   └── 1292ec81691a9ebfefdfaf1c1cbf08cce11cc4
+│   │   ├── 08
+│   │   │   └── 345619640307a6d13fc54fea546bba2fbab31b
+│   │   ├── 09
+│   │   │   └── 50f4c91173bc10e9b288594343bee52a43a992
+│   │   ├── 0a
+│   │   │   └── 8a9a361d29a5facd18fc865748d516d99b79b3
+│   │   ├── 0d
+│   │   │   ├── 2902135caece481a035652d88970c80e29cc7e
+│   │   │   └── c7fb1ddc2605dadb1d6e1e10679f7d719bb358
+│   │   ├── 0e
+│   │   │   └── d1137f5d7a2481d2a865408e36d64d9e728052
+│   │   ├── 0f
+│   │   │   ├── 8b3f7d2728d9aa0eb3503027ebda4524da766b
+│   │   │   └── 8d1086e18ea1004000952995c38a91e1b2d7bc
+│   │   ├── 11
+│   │   │   └── 51e397d27123447a8ff09bee31aea1574d7ed7
+│   │   ├── 14
+│   │   │   └── 9ff0fcc63fdeb332307224f8d0f213db89b43f
+│   │   ├── 15
+│   │   │   └── 3653e8d67f81b901d28257a65908f3278e058d
+│   │   ├── 1a
+│   │   │   └── 7b62c100e6ac53b911d9482b1cdfec8d531ddc
+│   │   ├── 1d
+│   │   │   └── 5f0c4ef19ca09024188f41ddb76ba1fc3ba0c0
+│   │   ├── 21
+│   │   │   ├── 04d75417ef250a2b2e1e85063bfaff2ab71132
+│   │   │   ├── 30133071bbab192a39eb1a740fc089d1096ca8
+│   │   │   └── 82148c7d160f506a193de9939308e1723d9ebd
+│   │   ├── 24
+│   │   │   └── b2b1b56db412cb9e8a3bd228116b34669000df
+│   │   ├── 26
+│   │   │   └── 98716dcd1f2b7b5fd898e7c7d5bd888956f98a
+│   │   ├── 27
+│   │   │   ├── 4eb7a364408fcb8eadaab45e9ed2507ce186f1
+│   │   │   └── e491efacc89ada29ba94fe4da1c5687964feef
+│   │   ├── 28
+│   │   │   └── 86114b910b937cab11e713ea6da4d0aa43dbe6
+│   │   ├── 29
+│   │   │   └── 4aabf7a62bace124262520c7dd2ebbf8acbffe
+│   │   ├── 2a
+│   │   │   ├── 2534c3df99a79c1c5709c432ebdd5ddc963a94
+│   │   │   ├── 3353b22a078c2ccc7bca69935c33864ac4b432
+│   │   │   └── a2abca45ed46c98087805f453170b8559e907d
+│   │   ├── 2b
+│   │   │   └── 6202b181434b8dbd615471989da86ab51836f0
+│   │   ├── 2d
+│   │   │   └── 92116662c76300dad8a4f1a5eee8833a1511b1
+│   │   ├── 33
+│   │   │   └── f47523c4cd4ffdd47452fe7faa4acdaf44bde4
+│   │   ├── 35
+│   │   │   └── 6d7e49f1dd133278665d1d6b33368d71dee7d6
+│   │   ├── 38
+│   │   │   ├── 245296bb5e022df1f0f4a5e73ea0797fd9c23e
+│   │   │   └── 79d54755798567f0f318d63340508d5668eb96
+│   │   ├── 39
+│   │   │   ├── 4917c053a04daa76d8b94f0a02db0bd99e1034
+│   │   │   └── 5f9c6cc9bd13c6b912efe24673249f85f1f828
+│   │   ├── 3a
+│   │   │   └── 0b46511a71b464dac72d693faae6ea0f7e3b2e
+│   │   ├── 3b
+│   │   │   └── 7ab6ceba5cde8d026c5f14ac1c284e6e253434
+│   │   ├── 3c
+│   │   │   └── c7a3d0c54581090375c7641c26e3f94e73dc49
+│   │   ├── 3d
+│   │   │   └── 4d71e416165994c05d569f7af1fa04c6862477
+│   │   ├── 4e
+│   │   │   └── 0cff3036cf1b8daf326a3d57e8a53ba890570c
+│   │   ├── 4f
+│   │   │   └── 85cca4041020950d82db25e006d59fdb4d7cc2
+│   │   ├── 58
+│   │   │   └── 40b5e2d31247f3382e7a6e2a543a948bfad7b7
+│   │   ├── 59
+│   │   │   └── f41f5e597ec8bbfae5a51e2f9526e0d7370f9c
+│   │   ├── 5b
+│   │   │   └── 346837a72600012b1739a732692ce29f540d1d
+│   │   ├── 60
+│   │   │   ├── 16bed556f1f7c00a2264c7af8e6d8de20393b6
+│   │   │   ├── 608d0fe5bff3a7a7e05d5a232944a1a8effe5f
+│   │   │   └── 61389f7367933d625fbcd73c6e8ec9aea2bd96
+│   │   ├── 66
+│   │   │   ├── 23c44cba15225442555431490930438d22b420
+│   │   │   └── a65d1e4a79f230031ec0e0959a721039e7282f
+│   │   ├── 6d
+│   │   │   └── a0652f05f28fc6950cec20ebdfbae89b665479
+│   │   ├── 6f
+│   │   │   ├── 4624c0085859ebec65ade4178403d83ba805f1
+│   │   │   └── 5b4a5a039896343557e355882c166230ebe6b9
+│   │   ├── 79
+│   │   │   ├── 8cdb0fce95245c803b2eae9cefd762f8a8e1b2
+│   │   │   └── c113f9b50178eefaedb999950fa206eaf6d645
+│   │   ├── 7a
+│   │   │   ├── 9b0932975a4bfd62e42b7f7881aea47cfdc244
+│   │   │   └── b028d6391263d98f48a30613de25e5f2b1bcfe
+│   │   ├── 7e
+│   │   │   └── 5dc294cc57c9d72c7deef85aefb537503f6e55
+│   │   ├── 7f
+│   │   │   └── 94967a8fb0946f94eee94a9bd91c3932cb3ca5
+│   │   ├── 81
+│   │   │   └── b6df6ce94ae800ba7e26f539a7348801fdbb99
+│   │   ├── 84
+│   │   │   └── 5cc6b8656e8ba5f7b16e98073f4a69302045dd
+│   │   ├── 87
+│   │   │   └── 857086e8076ee026d577c7314d5045ae5d217d
+│   │   ├── 8a
+│   │   │   └── 187e1a20b3bd7d3fe7312d3705010d4acfb2a5
+│   │   ├── 8b
+│   │   │   ├── 137891791fe96927ad78e64b0aad7bded08bdc
+│   │   │   └── d06bdf095c809f80d639847440b06b0199a88c
+│   │   ├── 8d
+│   │   │   └── 653256a3b8c728b55d5d2d6fc41d8cf6686f7d
+│   │   ├── 8e
+│   │   │   ├── 3548272c780f99e3f9b06ed7fb10bb6e89152c
+│   │   │   └── 463d9272f56d55c5c234efbe97c864447aad76
+│   │   ├── 90
+│   │   │   └── 3f4899d6fced0eb941e159f7322b21b320c40c
+│   │   ├── 93
+│   │   │   └── 50fdc20e69040aaf4f8c9db6bc1cad4870776f
+│   │   ├── 95
+│   │   │   └── 5ee3038f988929fac2dedb6a307ebd45dfcfd7
+│   │   ├── 96
+│   │   │   └── 3db67df178d3da15d77f076905edaac366ec94
+│   │   ├── 98
+│   │   │   └── 9445e1ddd04d7b95f3b957d7a0c31d6ab220d9
+│   │   ├── 9b
+│   │   │   └── b7e4f846360242f6f3e467fd33cffaeb739655
+│   │   ├── 9f
+│   │   │   └── 4268ca083bce4572df42d272807ba72383f6c3
+│   │   ├── a5
+│   │   │   └── d2530640641ffb8798bbebb3e6240ff60e8eb3
+│   │   ├── ab
+│   │   │   └── 76f83f14337df51597d9b077103f60d8dfffd1
+│   │   ├── ad
+│   │   │   ├── 6b222558d204d65e005925ae4427b4e27bbb9e
+│   │   │   └── b6ada0c77d907f31c8fdcb29a86631642ed01c
+│   │   ├── ae
+│   │   │   └── 6d7c27ec8d041742ee47abddc10965f9d5e879
+│   │   ├── b1
+│   │   │   └── 43b8e3f34bf20d634fe33b824c1ff53427b9c3
+│   │   ├── b2
+│   │   │   ├── 6425e2749eaaa3d6202b2a75b94d18dc00aa6d
+│   │   │   ├── a97bd20d52c10d7bf35f20f8c979f0c6855339
+│   │   │   └── c80bc348597ab8029f9208c960abdc79f2599d
+│   │   ├── b3
+│   │   │   └── 83905dca8582c72bee01d33fd8bfe7ca8e244b
+│   │   ├── b4
+│   │   │   └── c859242dac3aa72ee0c8ba825ca9aa2f93bfea
+│   │   ├── b5
+│   │   │   └── 919fcf44c9168402dc4703afa9985ccd39f2ff
+│   │   ├── b8
+│   │   │   └── a12578b1cd438b95711c92379acee9d4acffff
+│   │   ├── bd
+│   │   │   └── cedeac1db1fbbcb9887aacdbc89bfec5f80b35
+│   │   ├── c0
+│   │   │   └── 4e20caf6370ebb9253ad831cc31de4a9c965f6
+│   │   ├── c1
+│   │   │   ├── 51ad9522b18fb03143fc24b9c7e40b24a3e7bf
+│   │   │   └── 5fd050b66b74711804e975b2fb0ada3c3a8854
+│   │   ├── c2
+│   │   │   └── 2ff4e35f02d9e482312826ba848cec5a3c9bb9
+│   │   ├── c3
+│   │   │   └── dc2931d18bb26503f58466c8d2287885b4cc82
+│   │   ├── c5
+│   │   │   └── dbf46a6b6801c34caf8c737bd702c07888e247
+│   │   ├── ca
+│   │   │   └── e610cf7887f3a9349c27bdd8ec41c6e5367208
+│   │   ├── cb
+│   │   │   ├── 12a437851e12caa55fec0664f72df758906dfd
+│   │   │   └── 6b47fc2c74ab835c0d354a536cf558489adcf6
+│   │   ├── ce
+│   │   │   └── dda40aec05891062153395417b708b13cc757a
+│   │   ├── d4
+│   │   │   └── 92d0d98c8fdc9f93ad2543bb4f531803e9df72
+│   │   ├── dc
+│   │   │   ├── 139d85a93101cc0f6e9db03a3e1a9f68e8dd7e
+│   │   │   ├── 18b54d64c332da91d5ccc5e9b38403f198596b
+│   │   │   └── 7b3e7d993ab1d0b1d5ee24aa28b294db8df13e
+│   │   ├── dd
+│   │   │   └── 5256a6b0f77cea2b88367a746f015b5e44b7e7
+│   │   ├── de
+│   │   │   └── 63e4a855f1d99a28972ea81788c0b41afc903e
+│   │   ├── e0
+│   │   │   └── f0a47bc08f30b550b47b01de4c9206b6824dd9
+│   │   ├── e1
+│   │   │   └── b5ac87c0c74c722b915c53867039d8b64ebcec
+│   │   ├── e2
+│   │   │   └── 023c8ac664e7d2902d9d54fe49af760cc3ab2f
+│   │   ├── e6
+│   │   │   └── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   ├── e7
+│   │   │   ├── 59d9aa9a8a7f69d2cb000153705b78ae3c274c
+│   │   │   └── 9ada539773aaf529e421e3fc488ff9f277a03e
+│   │   ├── e8
+│   │   │   └── 94137587120af0154895edba79820066513fec
+│   │   ├── e9
+│   │   │   └── 01dde684ea8ba25c50ea5dc7d5900da31a30d4
+│   │   ├── f3
+│   │   │   └── ad401ec1f8c2e38d4e1caf76578e88c865c198
+│   │   ├── f4
+│   │   │   ├── 42e0804501a190731316ab877f6542cec713a5
+│   │   │   └── baaade75a6d476fc99b527ba03aa5fa05999e1
+│   │   ├── f8
+│   │   │   └── 1cf537075f26df723af7971d2068f009d34ef5
+│   │   ├── fa
+│   │   │   └── 0b357c4f4a29c3de7c5abfa47ba9ea8e52dd92
+│   │   ├── fc
+│   │   │   └── 9244de1cb9c0d0c9fe96738042a994d5e6b549
+│   │   ├── info
+│   │   └── pack
+│   ├── ORIG_HEAD
+│   └── refs
+│       ├── heads
+│       │   └── master
+│       ├── remotes
+│       │   └── origin
+│       │       └── master
+│       └── tags
+├── .gitignore
+├── .idea
+│   ├── libraries
+│   │   ├── Dart_SDK.xml
+│   │   └── KotlinJavaRuntime.xml
+│   ├── modules.xml
+│   ├── runConfigurations
+│   │   └── main_dart.xml
+│   └── workspace.xml
+├── image_tools.iml
+├── lib
+│   ├── main.dart
+│   ├── models
+│   │   ├── file_item.dart
+│   │   └── processing_options.dart
+│   ├── providers
+│   │   └── app_state.dart
+│   ├── screens
+│   │   └── home_screen.dart
+│   ├── services
+│   │   ├── decode_jpeg_ffi.dart
+│   │   ├── image_processor.dart
+│   │   ├── processing_service.dart
+│   │   ├── raw_processor.dart
+│   │   └── resize_ffi.dart
+│   ├── utils
+│   │   ├── constants.dart
+│   │   └── file_utils.dart
+│   ├── widgets
+│   │   ├── action_buttons.dart
+│   │   ├── file_drop_area.dart
+│   │   ├── file_list_view.dart
+│   │   ├── output_folder_selector.dart
+│   │   ├── progress_indicator_widget.dart
+│   │   ├── quality_slider.dart
+│   │   └── settings_panel.dart
+│   └── wrappers
+│       ├── libraries
+│       │   └── stb_image_resize2.h
+│       └── resize_wrapper.c
+├── linux
+│   ├── flutter
+│   │   ├── ephemeral
+│   │   │   └── .plugin_symlinks
+│   │   │       ├── desktop_drop -> /mnt/c/Users/wojor/AppData/Local/Pub/Cache/hosted/pub.dev/desktop_drop-0.4.4/
+│   │   │       ├── screen_retriever -> /mnt/c/Users/wojor/AppData/Local/Pub/Cache/hosted/pub.dev/screen_retriever-0.1.9/
+│   │   │       └── window_manager -> /mnt/c/Users/wojor/AppData/Local/Pub/Cache/hosted/pub.dev/window_manager-0.2.9/
+│   │   ├── generated_plugin_registrant.cc
+│   │   ├── generated_plugin_registrant.h
+│   │   └── generated_plugins.cmake
+│   └── libraw.so
+├── macos
+│   ├── Flutter
+│   │   ├── ephemeral
+│   │   │   ├── flutter_export_environment.sh
+│   │   │   └── Flutter-Generated.xcconfig
+│   │   └── GeneratedPluginRegistrant.swift
+│   └── libraw.dylib
+├── .metadata
+├── pubspec.lock
+├── pubspec.yaml
+├── README.md
+├── repo_structure.md
+├── repo_structure.txt
+├── test
+│   └── widget_test.dart
+├── testdata
+│   └── sample.jpg
+├── .vscode
+│   └── settings.json
+└── windows
+    ├── CMakeLists.txt
+    ├── flutter
+    │   ├── CMakeLists.txt
+    │   ├── ephemeral
+    │   │   ├── cpp_client_wrapper
+    │   │   │   ├── binary_messenger_impl.h
+    │   │   │   ├── byte_buffer_streams.h
+    │   │   │   ├── core_implementations.cc
+    │   │   │   ├── engine_method_result.cc
+    │   │   │   ├── flutter_engine.cc
+    │   │   │   ├── flutter_view_controller.cc
+    │   │   │   ├── include
+    │   │   │   │   └── flutter
+    │   │   │   │       ├── basic_message_channel.h
+    │   │   │   │       ├── binary_messenger.h
+    │   │   │   │       ├── byte_streams.h
+    │   │   │   │       ├── dart_project.h
+    │   │   │   │       ├── encodable_value.h
+    │   │   │   │       ├── engine_method_result.h
+    │   │   │   │       ├── event_channel.h
+    │   │   │   │       ├── event_sink.h
+    │   │   │   │       ├── event_stream_handler_functions.h
+    │   │   │   │       ├── event_stream_handler.h
+    │   │   │   │       ├── flutter_engine.h
+    │   │   │   │       ├── flutter_view_controller.h
+    │   │   │   │       ├── flutter_view.h
+    │   │   │   │       ├── message_codec.h
+    │   │   │   │       ├── method_call.h
+    │   │   │   │       ├── method_channel.h
+    │   │   │   │       ├── method_codec.h
+    │   │   │   │       ├── method_result_functions.h
+    │   │   │   │       ├── method_result.h
+    │   │   │   │       ├── plugin_registrar.h
+    │   │   │   │       ├── plugin_registrar_windows.h
+    │   │   │   │       ├── plugin_registry.h
+    │   │   │   │       ├── standard_codec_serializer.h
+    │   │   │   │       ├── standard_message_codec.h
+    │   │   │   │       ├── standard_method_codec.h
+    │   │   │   │       └── texture_registrar.h
+    │   │   │   ├── plugin_registrar.cc
+    │   │   │   ├── readme
+    │   │   │   ├── standard_codec.cc
+    │   │   │   └── texture_registrar_impl.h
+    │   │   ├── flutter_export.h
+    │   │   ├── flutter_messenger.h
+    │   │   ├── flutter_plugin_registrar.h
+    │   │   ├── flutter_texture_registrar.h
+    │   │   ├── flutter_windows.dll
+    │   │   ├── flutter_windows.dll.exp
+    │   │   ├── flutter_windows.dll.lib
+    │   │   ├── flutter_windows.dll.pdb
+    │   │   ├── flutter_windows.h
+    │   │   ├── generated_config.cmake
+    │   │   ├── icudtl.dat
+    │   │   └── .plugin_symlinks
+    │   │       ├── desktop_drop -> /mnt/c/Users/wojor/AppData/Local/Pub/Cache/hosted/pub.dev/desktop_drop-0.4.4/
+    │   │       ├── screen_retriever -> /mnt/c/Users/wojor/AppData/Local/Pub/Cache/hosted/pub.dev/screen_retriever-0.1.9/
+    │   │       └── window_manager -> /mnt/c/Users/wojor/AppData/Local/Pub/Cache/hosted/pub.dev/window_manager-0.2.9/
+    │   ├── generated_plugin_registrant.cc
+    │   ├── generated_plugin_registrant.h
+    │   └── generated_plugins.cmake
+    ├── .gitignore
+    ├── jpeg_decoder_wrapper.c
+    ├── jpeg_decoder_wrapper.dll
+    ├── jpeg_decoder_wrapper.exp
+    ├── jpeg_decoder_wrapper.lib
+    ├── jpeg_decoder_wrapper.obj
+    ├── lib
+    │   └── turbojpeg.lib
+    ├── resizeFast64.dll
+    ├── runner
+    │   ├── CMakeLists.txt
+    │   ├── flutter_window.cpp
+    │   ├── flutter_window.h
+    │   ├── main.cpp
+    │   ├── resource.h
+    │   ├── resources
+    │   │   └── app_icon.ico
+    │   ├── runner.exe.manifest
+    │   ├── Runner.rc
+    │   ├── utils.cpp
+    │   ├── utils.h
+    │   ├── win32_window.cpp
+    │   └── win32_window.h
+    ├── turbojpeg.dll
+    └── turbojpeg.h
+
+326 directories, 920 files
