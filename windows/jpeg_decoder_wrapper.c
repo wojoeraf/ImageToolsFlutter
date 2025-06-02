@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <string.h>
+#include <stdio.h>
 #include "turbojpeg.h"
 
 #ifdef _WIN32
@@ -13,6 +14,17 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+// Test function to verify TurboJPEG is working
+DLL_EXPORT
+int test_turbojpeg() {
+    tjhandle handle = tjInitDecompress();
+    if (handle) {
+        tjDestroy(handle);
+        return 1; // TurboJPEG is working
+    }
+    return 0; // TurboJPEG failed to initialize
+}
 
 // Returns 1 on success, 0 on error.
 DLL_EXPORT
@@ -26,8 +38,18 @@ int decode_jpeg(
 ) {
     if (!jpegBuf || jpegSize <= 0 || !outputBuf || !width || !height || !channels) return 0;
 
+    // Debug output (will be visible in debug builds)
+    #ifdef _DEBUG
+    printf("decode_jpeg called with jpegSize=%d\n", jpegSize);
+    #endif
+
     tjhandle handle = tjInitDecompress();
-    if (!handle) return 0;
+    if (!handle) {
+        #ifdef _DEBUG
+        printf("tjInitDecompress failed\n");
+        #endif
+        return 0;
+    }
 
     int subsamp, colorspace;
     if (tjDecompressHeader3(handle, jpegBuf, jpegSize, width, height, &subsamp, &colorspace) != 0) {

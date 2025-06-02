@@ -1,9 +1,20 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(image_tools LANGUAGES CXX)
+project(image_tools LANGUAGES CXX C)
 
 # The path to the jpeg_decoder_wrapper.dll file
 set(JPEG_DECODER_DLL "./jpeg_decoder_wrapper.dll")
+
+# Build the JPEG decoder wrapper DLL
+add_library(jpeg_decoder_wrapper SHARED jpeg_decoder_wrapper.c)
+target_include_directories(jpeg_decoder_wrapper PRIVATE .)
+target_link_libraries(jpeg_decoder_wrapper PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/lib/turbojpeg.lib")
+
+# Set output directory for the wrapper DLL
+set_target_properties(jpeg_decoder_wrapper PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
+    LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
+)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
@@ -108,4 +119,15 @@ install(DIRECTORY "${PROJECT_BUILD_DIR}/${FLUTTER_ASSET_DIR_NAME}"
 # Install the AOT library on non-Debug builds only.
 install(FILES "${AOT_LIBRARY}" DESTINATION "${INSTALL_BUNDLE_DATA_DIR}"
   CONFIGURATIONS Profile;Release
+  COMPONENT Runtime)
+
+# Install custom DLLs required by the application
+install(TARGETS jpeg_decoder_wrapper
+  RUNTIME DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
+  COMPONENT Runtime)
+
+install(FILES 
+  "${CMAKE_CURRENT_SOURCE_DIR}/turbojpeg.dll"
+  "${CMAKE_CURRENT_SOURCE_DIR}/resizeFast64.dll"
+  DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
   COMPONENT Runtime)
